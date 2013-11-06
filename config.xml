@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.fixers.kysh"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <name>KYSH</name>
+
+    <description>
+        Know Your Sexual Health (KYSH) - A interactive and informative phone app relating to Sexual Health.
+Created by the Young People of Flintshire, to help other Young People.
+    </description>
+
+    <author href="http://www.fixers.org.uk" 
+		email="joe@fixers.org.uk">
+        Joe Kelly
+    </author>
+
+
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <access origin="*" />
+	
+	<gap:splash src="images/splash.jpg" />
+	<icon src="images/icon.png" gap:role="default" />
+	
+	<preference name="fullscreen" value="true" />
+
+
+    <icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+    <icon src="icons/android/xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+    <icon src="icons/ios/icon.png" gap:platform="ios" width="57" height="57" />
+    <icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="icons/ios/icon_at_2x.png" gap:platform="ios" width="114" height="114" />
+    <icon src="icons/ios/icon-72_at_2x.png" gap:platform="ios" width="144" height="144" />
+
+    <gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="splash/android/xxhdpi.png" gap:platform="android" gap:density="xxhdpi" />
+
+    <gap:splash src="splash/ios/Default.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="splash/ios/Default_at_2x.png" gap:platform="ios" width="640" height="960" />
+    <gap:splash src="splash/ios/Default_iphone5.png" gap:platform="ios" width="640" height="1136" />
+    <gap:splash src="splash/ios/Default-Landscape.png" gap:platform="ios" width="1024" height="748" />
+    <gap:splash src="splash/ios/Default-Portrait.png" gap:platform="ios" width="768" height="1004" />
+	
+</widget>

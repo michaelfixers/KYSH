@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>KYSH</title>
+		<!-- http://jquerymobile.com/themeroller/?ver=1.3.1&style_id=20130613-126 -->
+		<link rel="stylesheet" href="themes/KYSH2.min.css" />		
+		<link rel="stylesheet" href="themes/jquery.mobile.structure-1.3.1.min.css" />
+		<link rel="stylesheet" href="themes/custom.css" />
+		<script src="code/jquery-2.0.2.min.js"></script>
+		<script src="code/jquery.mobile-1.3.1.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		<script src="code/map.js"></script>
+	</head>
+	<body>
+
+		<!-- Home Page -->
+		<div data-role="page" id="home" data-theme="a">
+			<div data-role="content" data-theme="a">
+				<div class="intro center">
+					<img src="images/logo.png" width="300">
+					<h2 class="shadow">If in doubt, check it out</h2>
+				</div>
+				<div>
+				    <a href="#stis" data-role="button" data-transition="slide" data-theme="d" data-icon="alert">KNOW YOUR STI’S</a>
+				    <a href="#clinics" data-role="button" data-transition="slide" data-theme="c" data-icon="search">NEAREST CLINICS</a>
+				    <a href="#faq" data-role="button" data-transition="slide" data-theme="b" data-icon="info">FAQ</a>
+				</div>				
+				<div class="center footer" data-theme="a" data-content-theme="e">
+					<p>&nbsp;</p>					
+					<p>
+						<a href="http://www.facebook.com/FixersUK"><img src="images/facebook.png" width="50" height="50"></a>
+						<a href="https://twitter.com/FixersUK"><img src="images/twitter.png" width="50" height="50"></a>
+					</p>
+					<p><a href="http://www.fixers.org.uk/"><img src="images/homelogos.png"></a></p>
+					<p class="left">A Fixers Project by: Jenna Giddins, James Owen, Brigitte Davies, Amy Hill, Anthony Jones, Kezia Lavender, Eli Yeardley and Aaron Hamilton.</p>		
+					<p class="left">Fixers UK: Company 2194957 &nbsp; Charity 298643</p>
+					<hr>
+					<p class="left">All the information and frequently asked questions in this app have been sourced from Bupa, LSE's Students' Union and Flintshire County Council</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Know Your STI's Main Page -->
+		<div data-role="page" id="stis" data-theme="d">
+			<div data-role="header" data-position="inline" data-position="fixed" data-theme="d">
+				<a href="#home" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-rel="back"></a>
+				<h2>Know your STI’s</h2>
+				<a href="" data-icon="alert" data-iconpos="notext"></a>
+			</div>
+			<div data-role="content">
+				<p class="center shadow">Select below for more info:</p>
+				<div data-role="controlgroup">				     
+					<a href="#chlamydia" data-role="button" data-transition="slide" data-icon="arrow-r" data-iconpos="right">Chlamydia</a>
+					<a href="#warts" data-role="button" data-transition="slide" data-icon="arrow-r" data-iconpos="right">Genital Warts</a>
+					<a href="#herpes" data-role="button" data-transition="slide" data-icon="arrow-r" data-iconpos="right">Genital Herpes</a>
+					<a href="#gonorrhoea" data-role="button" data-transition="slide" data-icon="arrow-r" data-iconpos="right">Gonorrhoea</a>
+					<a href="#hepb" data-role="button" data-transition="slide" data-icon="arrow-r" data-iconpos="right">Hepatitis B</a>
+					<a href="#hiv" data-role="button" data-transition="slide" data-icon="arrow-r" data-iconpos="right">HIV</a>
+					<a href="#lice" data-role="button" data-transition="slide" data-icon="arrow-r" data-iconpos="right">Pubic Lice</a>
+				<a href="#syphilis" data-role="button" data-transition="slide" data-icon="arrow-r" data-iconpos="right">Syphilis</a></div>
+				<div class="footer">
+				  <p class="boot">This information is to be used as a guide, some STI may be undetectable, and some may not show any symptoms at all. It is important to have regular check ups at your local sexual health clinic.</p>
+					<p><a href="#clinics" class="white">Click here for your local clinics.<br>
+					  <br>
+					</a></p>
+                    <a href="#clinics" data-role="button" data-theme="c" data-icon="search">Clinics</a> <a href="#faq" data-role="button" data-theme="b" data-icon="info">FAQ</a> <a href="#home" data-role="button" data-theme="a" data-icon="home">Home</a>
+                    <p><a href="#clinics" class="white">                    </a></p>
+		      </div>
+			</div>
+		</div>
+		<!-- Chlamydia -->
+		<div data-role="page" id="chlamydia" data-theme="d" data-content-theme="e">
+			<div data-role="header" data-position="inline" data-position="fixed" data-theme="d">
+				<a href="#stis" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-rel="back"></a>
+				<h2>Chlamydia</h2>
+				<a href="" data-icon="alert" data-iconpos="notext"></a>
+			</div>
+			<div data-role="content">
+				<p class="center"><img src="images/logo.png" width="200"></p>
+				<h3>Chlamydia</h3>
+				<p>Most people do not have signs or symptoms of chlamydia, which include in men - pain passing urine and discharge, in women - vaginal discharge, abnormal vaginal bleeding.</p>
+				<p>These usually show up one to three weeks after being infected or may show many months later when the infection has spread to other parts of your body.</p>
+				<a href="#stis" data-role="button" data-theme="d" data-icon="arrow-l" data-transition="slide" data-rel="back">Back</a>
+			</div>
+		</div>
+		<!-- Genital Warts -->
+		<div data-role="page" id="warts" data-theme="d" data-content-theme="e">
+			<div data-role="header" data-position="inline" data-position="fixed" data-theme="d">
+				<a href="#stis" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-rel="back"></a>
+				<h2>Genital Warts</h2>
+				<a href="" data-icon="alert" data-iconpos="notext"></a>
+			</div>
+			<div data-role="content">
+				<p class="center"><img src="images/logo.png" width="200"></p>
+				<h3>Genital Warts</h3>
+				<p>Warts can vary in appearance. They can appear as small, smooth, round bumps or larger growths that are grouped together or small cauliflower-shaped bumps.</p>
+				<p>You can have Genital Warts without having any symptoms, and you can pass on the virus even when you don’t show any signs of having genital warts.</p>
+				<a href="#stis" data-role="button" data-theme="d" data-icon="arrow-l" data-transition="slide" data-rel="back">Back</a>
+			</div>
+		</div>
+		<!-- Genital Herpes -->
+		<div data-role="page" id="herpes" data-theme="d" data-content-theme="e">
+			<div data-role="header" data-position="inline" data-position="fixed" data-theme="d">
+				<a href="#stis" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-rel="back"></a>
+				<h2>Genital Herpes</h2>
+				<a href="" data-icon="alert" data-iconpos="notext"></a>
+			</div>
+			<div data-role="content">
+				<p class="center"><img src="images/logo.png" width="200"></p>
+				<h3>Genital Herpes</h3>
+				<p>Genital herpes is caused by the herpes simplex virus, which causes painful ulcers on the genitals Another type of the virus causes oral herpes (cold sores). Many people infected by this virus won’t have any symptoms.</p>
+				<p>There is no treatment that can completely remove the virus from your body, but you can be prescribed antiviral medicine that will help to clear up the blisters more quickly.</p>
+				<a href="#stis" data-role="button" data-theme="d" data-icon="arrow-l" data-transition="slide" data-rel="back">Back</a>
+			</div>
+		</div>
+		<!-- Gonorrhoea -->
+		<div data-role="page" id="gonorrhoea" data-theme="d" data-content-theme="e">
+			<div data-role="header" data-position="inline" data-position="fixed" data-theme="d">
+				<a href="#stis" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-rel="back"></a>
+				<h2>Gonorrhoea</h2>
+				<a href="" data-icon="alert" data-iconpos="notext"></a>
+			</div>
+			<div data-role="content">
+				<p class="center"><img src="images/logo.png" width="200"></p>
+				<h3>Gonorrhoea</h3>
+				<p>Gonorrhoea can be passed on through unprotected vaginal sex, anal sex or oral sex. About 10% of men and 50% of women will not have obvious signs of gonorrhoea so you may need a test to find out whether you have it.</p>
+				<p>Symptoms include abnormal genital discharge in both men and women</p>
+				<a href="#stis" data-role="button" data-theme="d" data-icon="arrow-l" data-transition="slide" data-rel="back">Back</a>
+			</div>
+		</div>
+		<!-- Hepatitis B -->
+		<div data-role="page" id="hepb" data-theme="d" data-content-theme="e">
+			<div data-role="header" data-position="inline" data-position="fixed" data-theme="d">
+				<a href="#stis" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-rel="back"></a>
+				<h2>Hepatitis B</h2>
+				<a href="" data-icon="alert" data-iconpos="notext"></a>
+			</div>
+			<div data-role="content">
+				<p class="center"><img src="images/logo.png" width="200"></p>
+				<h3>Hepatitis B</h3>
+				<p>Hepatitis B virus causes hepatitis, which is an inflammation of your liver. If you have any symptoms, and not everyone does, these start about one to six months after you become infected. </p>
+				<p>You may feel generally unwell with a sore throat, tiredness, joint pains and a loss of appetite. You may also feel sick or vomit.</p>
+				<p> Your symptoms may be more severe and cause abdominal pain and yellowing of your skin and eyes (jaundice). Your skin may itch and your urine may become darker.</p>
+				<a href="#stis" data-role="button" data-theme="d" data-icon="arrow-l" data-transition="slide" data-rel="back">Back</a>
+			</div>
+		</div>
+		<!-- HIV -->
+		<div data-role="page" id="hiv" data-theme="d" data-content-theme="e">
+			<div data-role="header" data-position="inline" data-position="fixed" data-theme="d">
+				<a href="#stis" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-rel="back"></a>
+				<h2>HIV</h2>
+				<a href="" data-icon="alert" data-iconpos="notext"></a>
+			</div>
+			<div data-role="content">
+				<p class="center"><img src="images/logo.png" width="200"></p>
+				<h3>HIV</h3>
+				<p>Human immunodeficiency virus (HIV) attacks your immune system. Many people infected with HIV have no signs and symptoms at all. </p>
+				<p>About half of people who become infected with HIV will have flu-like symptoms within a few weeks of becoming infected. Seek advice and a HIV test if you are concerned</p>
+				<a href="#stis" data-role="button" data-theme="d" data-icon="arrow-l" data-transition="slide" data-rel="back">Back</a>
+			</div>
+		</div>
+		<!-- Pubic Lice -->
+		<div data-role="page" id="lice" data-theme="d" data-content-theme="e">
+			<div data-role="header" data-position="inline" data-position="fixed" data-theme="d">
+				<a href="#stis" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-rel="back"></a>
+				<h2>Pubic Lice</h2>
+				<a href="" data-icon="alert" data-iconpos="notext"></a>
+			</div>
+			<div data-role="content">
+				<p class="center"><img src="images/logo.png" width="200"></p>
+				<h3>Pubic Lice</h3>
+				<p>Pubic lice (also known as crabs) are tiny insects that live in coarse body hair such as pubic hair but also chest and leg hair, beards, eyelashes and eyebrows. They don’t live in hair on the head and are not the same as head lice.</p>
+				<a href="#stis" data-role="button" data-theme="d" data-icon="arrow-l" data-transition="slide" data-rel="back">Back</a>
+			</div>
+		</div>
+		<!-- Syphilis -->
+		<div data-role="page" id="syphilis" data-theme="d" data-content-theme="e">
+			<div data-role="header" data-position="inline" data-position="fixed" data-theme="d">
+				<a href="#stis" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-rel="back"></a>
+				<h2>Syphilis</h2>
+				<a href="" data-icon="alert" data-iconpos="notext"></a>
+			</div>
+			<div data-role="content">
+				<p class="center"><img src="images/logo.png" width="200"></p>
+				<h3>Syphilis</h3>
+				<p>Syphilis is caused by bacteria. The disease has three stages: primary, secondary and tertiary. The primary stage begins about two to three weeks after you are infected when one or more sores may appear. </p>
+				<p>It is an uncommon STI</p>
+				<a href="#stis" data-role="button" data-theme="d" data-icon="arrow-l" data-transition="slide" data-rel="back">Back</a>
+			</div>
+		</div>
+
+		<!-- Clinics Page -->
+		<div data-role="page" id="clinics" data-theme="c">
+			<div data-role="header" data-position="inline" data-position="fixed" data-theme="c">
+				<a href="#home" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-rel="back"></a>
+				<h2>Clinics</h2>
+				<a href="" data-icon="search" data-iconpos="notext"></a>
+			</div>
+			<div data-role="content" class="shadow">
+				<p class="center">Find your nearest Clinic:</p>
+				<div id="map-canvas"></div>
+				<div id="clinic-list"></div>
+				<p>Times and numbers are subject to change, call Flintshire County Council on 01352 752121 for up to date information.</p>
+			</div>
+		</div>
+
+		<!-- FAQ Page -->
+		<div data-role="page" id="faq" data-theme="b">
+			<div data-role="header" data-position="inline" data-position="fixed" data-theme="b">
+				<a href="#home" data-icon="arrow-l" data-iconpos="notext" data-transition="slide" data-rel="back"></a>
+				<h2>FAQ</h2>
+				<a href="" data-icon="info" data-iconpos="notext"></a>
+			</div>
+			<div data-role="content" data-theme="d">
+				<h3 class="center shadow">Here you will find the answers to the most frequently asked questions about STI’s and STI clinics.</h3>
+				<div data-role="collapsible" data-theme="b" data-content-theme="e">
+				    <h4>WHO SHOULD GO FOR AN STI TEST?</h4>
+				    <h3>WHO SHOULD GO FOR AN STI TEST?</h3>
+				    <p>Anybody who has had unprotected sex and is worried that they might have come into contact with a sexually transmitted infection.</p>
+				</div>
+				<div data-role="collapsible" data-theme="b" data-content-theme="e">
+				    <h4>WHERE SHOULD I GO TO HAVE ONE?</h4>
+				    <h3>WHERE SHOULD I GO TO HAVE ONE?</h3>
+				    <p>Ideally your nearest sexual health clinic. Your GP may be able to perform some of the tests, but you'll get more specialist advice and treatment at a sexual health clinic.</p>
+				    <p>Some health clinics for young people may offer sexual health services and advice, as well.</p>
+				    <p><a href="#clinics">Click here for your local clinics</a></p>
+				</div>
+				<div data-role="collapsible" data-theme="b" data-content-theme="e">
+				    <h4>WILL IT BE CONFIDENTIAL?</h4>
+				    <h3>WILL IT BE CONFIDENTIAL?</h3>
+				    <p>Special laws exist to protect personal information at a sexual health clinic, so all information you provide stays confidential.</p>
+				</div>
+				<div data-role="collapsible" data-theme="b" data-content-theme="e">
+				    <h4>CAN I GIVE A FALSE NAME AND DETAILS?</h4>
+				    <h3>CAN I GIVE A FALSE NAME AND DETAILS?</h3>
+				    <p>Most clinics prefer if you give your details or ask to be 'anonymous’ rather than give a false name. It is helpful if you remember these details however for when you need to return! </p>
+					<p>It is always useful if the clinic has a means of contacting you if, for example, they need to let you know about an infection that needs treatment.</p>
+				</div>
+				<div data-role="collapsible" data-theme="b" data-content-theme="e">
+				    <h4>WHAT IF I'M UNDER 16?</h4>
+				    <h3>WHAT IF I'M UNDER 16?</h3>
+				    <p>You can still be seen in complete confidence if you are under the age of 16. If you test positive for an infection, they would keep that information confidential. </p>
+					<p>They will not inform your parents, school or doctor unless there is a serious Child Protection Issue.</p>
+				</div>
+				<div data-role="collapsible" data-theme="b" data-content-theme="e">
+				    <h4>DO I HAVE TO STATE WHICH STI I WANT TO BE TESTED FOR?</h4>
+				    <h3>DO I HAVE TO STATE WHICH STI I WANT TO BE TESTED FOR?</h3>
+				    <p>The doctor, nurse or sexual health advisor will ask some questions to build up a picture of your sexual history and help decide what tests need to be done. </p>
+					<p>Quite often young people will be seen by a sexual health adviser or nurse before seeing the doctor to discuss your concerns and answer any questions that you may have.</p>
+				</div>
+				<div data-role="collapsible" data-theme="b" data-content-theme="e">
+				    <h4>WHAT SORTS OF QUESTIONS WILL THEY ASK ME?</h4>
+				    <h3>WHAT SORTS OF QUESTIONS WILL THEY ASK ME?</h3>
+				    <ul>
+				    	<li>What are you concerned about?</li>
+				    	<li>Whether you are in a relationship or not.</li>
+				    	<li>Who you’ve had sex with recently and whether they were male or female?</li>
+				    	<li>What type of sex was it (e.g. vaginal/anal/oral etc)?</li>
+				    	<li>Whether you used condoms?</li>
+				    	<li>Have you ever had an STI before?</li>
+				    	<li>Are you on any medication?</li>
+				    </ul>
+				    <p>It is important to answer truthfully, as the tests you have will be based on your answers.</p>
+				    <p>If you are unsure why some of the questions are asked, explain that you want a clearer explanation.</p>
+				</div>
+				<div data-role="collapsible" data-theme="b" data-content-theme="e">
+				    <h4>WHAT DO THE TESTS INVOLVE?</h4>
+				    <h3>WHAT DO THE TESTS INVOLVE?</h3>
+				    <p>What tests you have depends on the sexual history that you will have discussed with the doctor. You may have one or more of the following tests, depending on what infections you are being tested for:</p>
+					<ul>
+						<li>Urine test (try not to go to the toilet for two hours before the test).</li>
+						<li>Samples for various infections from the urethra, vagina, cervix (neck of the womb), throat or rectum. These are sometimes called swabs.</li> 
+						<li>For females with no symptoms you may be able to do your own ‘swab’.</li>
+						<li>The doctor may use something called a speculum to examine female patients.</li>
+						<li>HIV testing is routinely offered in all GUM clinics. Blood test and vaccination for Hepatitis B may be offered.</li>
+						</ul>
+						<p>The swabs or tests aren't painful, but they can sometimes be a little uncomfortable. If you are worried about any of the tests, always speak to the doctor or nurse that is doing them beforehand.</p>
+				</div>
+				<div data-role="collapsible" data-theme="b" data-content-theme="e">
+				    <h4>HOW LONG DO I HAVE TO WAIT FOR THE RESULTS?</h4>
+				    <h3>HOW LONG DO I HAVE TO WAIT FOR THE RESULTS?</h3>
+				    <p>Some results can be given immediately if the presence of an infection shows up by direct observation, however most will have to be sent to a laboratory. </p>
+				    <p>You may be asked to phone or return for another appointment in a week or so to discuss your results.</p>
+				</div>
+				<div data-role="collapsible" data-theme="b" data-content-theme="e">
+				    <h4>DO I HAVE TO PAY?</h4>
+				    <h3>DO I HAVE TO PAY?</h3>
+				    <p>All tests and treatment are free, along with condoms and lubricants.</p>
+				</div>
+				<div data-role="collapsible" data-theme="b" data-content-theme="e">
+				    <h4>WHAT HAPPENS IF THE RESULTS ARE POSITIVE?</h4>
+				    <h3>WHAT HAPPENS IF THE RESULTS ARE POSITIVE?</h3>
+				    <p>First the sexual health advisor would talk to you about the nature of the infection and what sort of treatment it will involve. They would also discuss the importance of contacting partners, which is essential in terms of stopping the spread of infections. You can do this on your own, or they can sometimes do that on your behalf.</p>
+				    <p>You may need to see a sexual health adviser again, who will discuss these issues with you and give you further information and advice.</p>
+				</div>
+				<div data-role="collapsible" data-theme="b" data-content-theme="e">
+				    <h4>HOW OFTEN SHOULD I BE TESTED FROM NOW ON?</h4>
+				    <h3>HOW OFTEN SHOULD I BE TESTED FROM NOW ON?</h3>
+				    <p>It entirely depends on whether you are in a regular relationship and whether you think you may have been in contact with an STI. The main thing to remember is, if in doubt check it out.</p>
+				</div>
+			</div>            
+		</div>
+        
+	</body>
+</html>

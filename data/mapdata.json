@@ -1,0 +1,31 @@
+{
+  "clinics": [
+    {
+      "name": "CHAT Buckley Health Clinic",
+      "lat": "53.163317",
+      "long": "-3.080142",
+      "address1": "Padeswood Road",
+      "address2": "Buckley",
+      "phone": "01244 545277",
+      "open": "Thursday 4:00PM to 5:30PM"
+    },
+    {
+      "name": "The Quay Health Centre",
+      "lat": "53.213659",
+      "long": "-3.051165",
+      "address1": "Fron Road",
+      "address2": "Connahs Quay",
+      "phone": "01244 813486",
+      "open": "Monday 9:30AM to 7:00PM"
+    },
+    {
+      "name": "Mold Clinic",
+      "lat": "53.171833",
+      "long": "-3.137391",
+      "address1": "Kings Street",
+      "address2": "Mold",
+      "phone": "01352 753637",
+      "open": "Thursday 9:30AM to 7:00PM"
+    }
+  ]
+}
